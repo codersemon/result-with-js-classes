@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show Student Result With Classes</title>
+    <!-- Bootstrap CSS CDN  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container py-3">
+      <div class="card">
+        <div class="card-header">
+          <h4 class="text-center">Student List With Result</h4>
+        </div>
+
+        <div class="card-body">
+          <table class="table table-bordered align-middle table-striped table-responsive table-hover">
+            <thead>
+              <tr class="text-center">
+                <th>SL No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Roll</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody class="student_list">
+              <!-- student data will added by js    -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- All Scripts  -->
+    <script src="./app/data.js"></script>
+    <script src="./app/result.js"></script>
+    <script src="./app/student.js"></script>
+    <script src="./app/main.js"></script>
+  </body>
+</html>
